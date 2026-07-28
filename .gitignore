@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Cache
+.cache/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos grandes
+*.parquet
+*.parquet.gzip
+*.csv
+*.xlsx
+*.xls
+
+# Modelos
+*.pkl
+*.joblib
+
+# Salidas
+output/
+outputs/
+resultados/
+
+# Azure/OpenAI
+config_secret.py
+secrets.py
+credentials.py
+
+# Datos de producción
+data/
+datasets/
+*.csv
+*.parquet
+*.parquet.gzip
+
+# Configuración sensible
+config/*.env
+config/local.py
+
+# Resultados del modelo
+predicciones/
+reportes/
+figuras/
+
+# Tokens
+token.json
+
+# Archivos de prueba
+tests/output/
